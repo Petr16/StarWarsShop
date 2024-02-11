@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsShop.API", "StarWarsShop.API\StarWarsShop.API.csproj", "{33692407-7D7C-4832-81C1-3F6A6FB6CCFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33692407-7D7C-4832-81C1-3F6A6FB6CCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33692407-7D7C-4832-81C1-3F6A6FB6CCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33692407-7D7C-4832-81C1-3F6A6FB6CCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33692407-7D7C-4832-81C1-3F6A6FB6CCFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48CE9862-D821-457F-98CB-50854CF2721C}
+	EndGlobalSection
+EndGlobal
