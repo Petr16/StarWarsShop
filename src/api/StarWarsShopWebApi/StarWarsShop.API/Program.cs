@@ -1,4 +1,33 @@
-var builder = WebApplication.CreateBuilder(args);
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using StarWarsShop.API;
+
+namespace RussianSpace.API
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            CreateHostBuilder(args).Build().Run();
+        }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
+    }
+}
+
+
+
+
+
+/*var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
@@ -22,4 +51,4 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+app.Run();*/

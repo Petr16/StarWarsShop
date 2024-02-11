@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsShop.API", "StarWarsShop.API\StarWarsShop.API.csproj", "{33692407-7D7C-4832-81C1-3F6A6FB6CCFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsShop.BLL", "StarWarsShop.BLL\StarWarsShop.BLL.csproj", "{8D9EA466-5B10-47A0-A242-D63F022E9FC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsShop.DAL", "StarWarsShop.DAL\StarWarsShop.DAL.csproj", "{62DB0A42-2E76-4599-946B-53C7B08020C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{33692407-7D7C-4832-81C1-3F6A6FB6CCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33692407-7D7C-4832-81C1-3F6A6FB6CCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33692407-7D7C-4832-81C1-3F6A6FB6CCFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9EA466-5B10-47A0-A242-D63F022E9FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9EA466-5B10-47A0-A242-D63F022E9FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9EA466-5B10-47A0-A242-D63F022E9FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9EA466-5B10-47A0-A242-D63F022E9FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62DB0A42-2E76-4599-946B-53C7B08020C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DB0A42-2E76-4599-946B-53C7B08020C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62DB0A42-2E76-4599-946B-53C7B08020C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62DB0A42-2E76-4599-946B-53C7B08020C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
